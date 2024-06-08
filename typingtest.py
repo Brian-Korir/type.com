@@ -7,3 +7,6 @@ def calculate_wpm(prompt_text, time_taken):
   return wpm
 
 prompt = "Your typing skills grows daily here"
+start_time = time.time()
+user_input = input("type the prompt: '" + prompt +"'\n")
+end_time =time.time()
